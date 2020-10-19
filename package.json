@@ -8,7 +8,7 @@
   "scripts": {
     "start": "yarn run tailwind:watch",
     "build": "yarn run tailwind",
-    "tailwind:watch": "nodemon -w tailwind.config.js -w src/css/tailwind.src.css -x 'yarn run tailwind'",
+    "tailwind:watch": "nodemon -w tailwind.config.js -w tailwind.src.css -x 'yarn run tailwind'",
     "tailwind": "tailwindcss build tailwind.src.css -o index.css"
   },
   "dependencies": {
