@@ -7,10 +7,9 @@
   "license": "MIT",
   "scripts": {
     "start": "yarn run tailwind:watch",
-    "build": "yarn run tailwind && yarn run printenv",
+    "build": "yarn run tailwind",
     "tailwind:watch": "nodemon -w tailwind.config.js -w tailwind.src.css -x 'yarn run tailwind'",
-    "tailwind": "tailwindcss build tailwind.src.css -o index.css",
-    "printenv": "printenv"
+    "tailwind": "tailwindcss build tailwind.src.css -o index.css"
   },
   "dependencies": {
     "nodemon": "^2.0.5",
