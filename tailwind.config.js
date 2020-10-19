@@ -5,7 +5,11 @@ module.exports = {
   },
   purge: ["./**/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Manrope", "sans-serif"],
+      },
+    },
   },
   variants: {},
   plugins: [],
